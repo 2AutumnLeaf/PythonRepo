@@ -20,11 +20,19 @@
 # print(line2, type(line2))
 # f.close()
 
-f = open("File.txt")
-line = f.readline()
-while not(line == ""):
-    print(line)
-    line = f.readline()
+# f = open("File.txt")
+# line = f.readline()
+# while not(line == ""):
+#     print(line)
+#     line = f.readline()
 
 
-f.close()
+# f.close()
+
+'''
+How to open a file without using a close() statement
+with statement
+
+'''
+# with open("file.txt") as f:
+#     print(f.read())
