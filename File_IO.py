@@ -20,6 +20,7 @@
 # print(line2, type(line2))
 # f.close()
 
+line = f.readline()
 f = open("File.txt")
 while not(line == ""):
     print(line)
